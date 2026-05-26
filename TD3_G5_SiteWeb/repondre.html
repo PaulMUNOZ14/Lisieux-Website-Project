@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Répondre aux questions - Agglomération de Lisieux</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <main>
+        <div class="page-container">
+            <h1 class="main-title">Questions des utilisateurs</h1>
+            
+            <div class="data-container">
+                <!-- Colonne des questions -->
+                <div class="data-column">
+                    <h2 class="column-title">Questions reçues</h2>
+                    <div class="questionnaire-list" id="questions-list">
+                        <!-- Les questions seront générées par JavaScript -->
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Boutons d'actions -->
+            <div class="button-container">
+                <button class="action-button btn-repondre" id="btn-repondre">Répondre</button>
+                <button class="action-button btn-supprimer" id="btn-supprimer">Supprimer</button>
+                <button class="action-button btn-traitee" id="btn-traitee">Marquer comme traitée</button>
+                <button class="action-button btn-back" id="btn-back">Retour au menu</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="h-100 align-items-center">
+            <p class="mb-1">~~| Copyright © |~~</p>
+            <p class="mb-1 fw-bold">WALLAERT-BEAUGENDRE Noor</p>
+            <p class="mb-0 text-muted">TD3 - SAE-4/5/6 - 2025</p>
+        </div>
+        <div>
+            <h5 class="mb-3 border-bottom border-secondary pb-2">Contacts</h5>
+            <ul class="list-unstyled mb-0">
+                <li class="mb-1">fabienne.jort@unicaen.fr</li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="script/script.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            initRepondrePage();
+        });
+    </script>
+</body>
+</html>
