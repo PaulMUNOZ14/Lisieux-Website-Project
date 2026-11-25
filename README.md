@@ -1,6 +1,6 @@
 # Lisieux-Website-Project
 
-## https://paulmunoz14.github.io/Lisieux-Website-Project/
+## https://lisieux.paulmunoz.fr/
 
 This University project was a simulation of a hands on experience of developing a website for a client.
 The goal was to create a website for the urban community of Lisieux in order to sensitize the inhabitants to the issues concerning public transportation in their area, as well as give them access 2 questionnaires about their mobility, in order to gather information for the local community council and define the next steps to improve transportation.
